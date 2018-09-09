@@ -11,7 +11,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: black;
 }
 
 hr.light {
@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-  color: #f05f40;
+  color: black;
 }
 
 h1,
@@ -38,13 +38,16 @@ h6 {
   font-family: 'Ubuntu', sans-serif;
 }
 
-.bg-primary {
-  background-color: #d1d3d6 !important;
+.bg primary {
+  background-color: transparent;
+  color: black;
+}
+#about {
+  color: black;
+  background-color: transparent !important;
+  opacity: 50%;
 }
 
-.bg-dark {
-  background-color: #212529 !important;
-}
 
 .text-faded {
   color: rgba(19, 18, 18, 0.7);
@@ -60,7 +63,7 @@ section {
 
 ::-moz-selection {
   color: rgb(17, 16, 16);
-  background: #212529;
+  background: transparent;
   text-shadow: none;
 }
 
@@ -82,7 +85,6 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color:#d1d3d6;
   font-family: 'Ubuntu', sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -170,6 +172,8 @@ header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url("images/smoke.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -233,7 +237,7 @@ header.masthead p {
   height: 100%;
   text-align: center;
   opacity: 0;
-  color: #fff;
+  color: black;
   background: rgba(240, 95, 64, 0.9);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -303,7 +307,7 @@ header.masthead p {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #fff;
+  color: black;
   background-color: #ee4b28 !important;
 }
 
